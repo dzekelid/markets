@@ -4,7 +4,7 @@ x-collection-name: IEX
 x-complete: 1
 info:
   title: IEX
-  description: the-iex-api-is-a-set-of-services-designed-for-developers-and-engineers-it-can-be-used-to-build-highquality-apps-and-services-were-always-working-to-improve-the-iex-api-please-check-back-for-enhancements-and-improvements
+  description: the-iex-api-is-a-set-of-services-designed-for-developers-and-engineers--it-can-be-used-to-build-highquality-apps-and-services--were-always-working-to-improve-the-iex-api--please-check-back-for-enhancements-and-improvements-
   termsOfService: https://iextrading.com/api-terms/
   version: 1.0.0
 host: api.iextrading.com
@@ -27,8 +27,8 @@ paths:
       parameters:
       - in: query
         name: format
-        description: ' Parameter is optional Value can only be csv When parameter
-          is not present, format defaults to JSON'
+        description: Parameter is optional Value can only be csv When parameter is
+          not present, format defaults to JSON
       responses:
         200:
           description: OK

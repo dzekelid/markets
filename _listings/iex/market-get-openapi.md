@@ -29,8 +29,8 @@ paths:
       parameters:
       - in: query
         name: format
-        description: ' Parameter is optional Value can only be csv When parameter
-          is not present, format defaults to JSON'
+        description: Parameter is optional Value can only be csv When parameter is
+          not present, format defaults to JSON
       responses:
         200:
           description: OK
